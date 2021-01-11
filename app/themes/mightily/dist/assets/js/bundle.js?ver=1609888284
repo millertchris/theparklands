@@ -47474,7 +47474,7 @@ var anime = require("animejs");
 module.exports = {
   init: function () {
     // Moving cloud effect for the home page hero
-    var cloudsDiv = `<div class="moving-clouds" style="background-image: url('/app/themes/mightily/dist/assets/img/clouds.png'); "></div>`; // var cloudsDiv = `<div class="moving-clouds" style="background-image: url('/assets/img/clouds.png'); "></div>`;
+    var cloudsDiv = `<div class="moving-clouds" style="background-image: url('app/themes/mightily/dist/assets/img/clouds.png'); "></div>`; // var cloudsDiv = `<div class="moving-clouds" style="background-image: url('/assets/img/clouds.png'); "></div>`;
 
     var homeHero = $(".home .hero.style-4 .image");
 
